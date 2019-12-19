@@ -1,7 +1,9 @@
 # hifi-corner
 ## Installation
-Installere NodeJS og åben mappen med VSCODE. Åben terminalen og skriv ```npm i```
+Installere NodeJS og åben mappen med VSCODE. Åben terminalen og skriv ```npm i```.
+Nu når alle de module pakker er hentet som vi skal bruge for vores gulpfile.js skriv ```npm run dev```.
+Kig ned i terminalen og åben localhost på firefox/chrome.
 
-### Jeg kunne ikke hente alt den data som jeg skulle bruge på grund af API ikke havde den information som skulle bruges til hjemmesiden!
+### Api er ikke længere oppe så den vil ikke hente produkter ned på shop siden.
 
 
