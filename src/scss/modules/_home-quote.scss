@@ -1,0 +1,38 @@
+.home-quote{
+    grid-row: 1;
+    grid-column: 1/-1;
+    background: url("../images/bg-home-quote.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font);
+}
+
+.home-quote__navn{
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.563rem;
+}
+
+.home-quote__overskrift{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.563rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1120px){
+    .home-quote__overskrift{
+        font-size: 4vw;
+    }
+
+    .home-quote__navn{
+        font-size: 3vw;
+    }
+}

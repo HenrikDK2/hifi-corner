@@ -1,0 +1,25 @@
+.breadcrumb-list{
+    display: flex; 
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb-list__link{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.breadcrumb-list__seperator{
+    margin: 0 10px;
+}
+
+.breadcrumb-list__link_back{
+    color: var(--theme-color);
+}
+
+@media only screen and (max-width:500px){
+    .breadcrumb-list{
+        font-size: 4vw;
+    }
+}

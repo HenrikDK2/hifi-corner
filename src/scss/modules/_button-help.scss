@@ -1,0 +1,20 @@
+.help-container{
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-help-container__links{ 
+    background: var(--theme-color);
+    padding: 7px 15px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 0.8125rem;
+}
+
+.button-help-container__links_hover:hover{
+    background: #988656;
+}

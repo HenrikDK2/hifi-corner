@@ -1,0 +1,22 @@
+.parallax-container{
+    background: url("../images/bg-home.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-container__img{
+    display: block;
+    margin-top: 104px;
+}
+
+@media only screen and (max-width: 700px){
+    .parallax-container__img{
+        margin: 0;
+    }
+}

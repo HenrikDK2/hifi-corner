@@ -1,0 +1,12 @@
+.main-content{
+    display: grid;
+    grid-template-rows: 400px 664px 500px 370px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width:1120px){
+    .main-content{
+        grid-template-rows: 300px repeat(6, 200px);
+        grid-template-columns: 1fr;
+    }
+}

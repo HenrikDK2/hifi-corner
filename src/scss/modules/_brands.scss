@@ -1,0 +1,134 @@
+.top-section{
+    font-family: var(--font);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1560px;
+    box-sizing: border-box;
+    font-size: 1.875rem;
+    background: url('../images/banner-speaker.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.top-section__overskrift{
+    font-weight: 300;
+}
+
+.logo{
+    min-width: 100px;
+    width: 12.333333333333334%;
+}
+
+.logo__img{
+    width: 100%;
+    height: auto;
+}
+
+.brands{
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    max-width: 1560px;
+    margin: 0 auto;
+    font-family: var(--font);
+}
+
+.brands-right{
+    background: rgb(0,0,0);
+    min-height: 400px;
+    padding: 30px;
+    flex: 1;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 65%, rgba(62,62,62,1) 100%); 
+    box-sizing: border-box;
+}
+
+.brands-right__overskrift{
+    color: var(--theme-color);
+}
+
+.brands-right__text{
+    color: #fff;
+    line-height: 1.4;
+    font-size: .925rem;
+}
+
+.brands-right__link{
+    color: var(--theme-color);
+}
+
+.brands-left{
+    background: rgb(0,0,0);
+    height: 400px;
+    flex: 1;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 65%, rgba(62,62,62,1) 100%); 
+    padding: 30px 30px 50px;
+    box-sizing: border-box;
+}
+
+.brands-left-overskrift{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--theme-color);
+    margin: 0 0 20px 0;
+    flex: 1;
+}
+
+.brands-container{
+    width: 90%;
+    max-width: 500px;
+}
+
+.brands-container__img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:1120px){
+    .brands-right__text{
+        font-size: 1.3vw;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    .brands{
+        flex-direction: column;
+    }
+
+    .brands-right__text{
+        font-size: 2.3vw;
+    }
+
+    .top-section__overskrift{
+        font-size: 1.875rem;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .top-section{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .brands-left-overskrift{
+        font-size: 4vw;
+    }
+
+    .brands-container{
+        width: 95%;
+    }
+
+    .brands-right__text{
+        font-size: 4vw;
+    }
+
+    .brands-right__link{
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'modules/navigation';
+@import 'modules/parallax-logo';
+@import 'modules/main-grid';
+@import 'modules/home-quote';
+@import 'modules/shop-add';
+@import 'modules/main-socials';
+@import 'modules/main-text-container';
+@import 'modules/brands';
+@import 'modules/products';
+@import 'modules/single-product';
+@import 'modules/single-product-sell';
+@import 'modules/addiitional-info-table';
+@import 'modules/button-help';
+@import 'modules/breadcrumb-list';
+@import 'modules/desc-table';
+@import 'modules/sidebar';
+@import 'modules/toolbar';
+@import 'modules/category';
+@import 'modules/product-item';
+@import 'modules/footer';
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.main{
+    margin: 104px auto 0;
+}   

@@ -1,0 +1,24 @@
+:root{
+    --nav-size:.875rem;
+    --font:'Museo-Sans';
+    --theme-color:#a39161;
+}
+
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("../fonts/MuseoSansRounded300.woff") format("woff");
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("../fonts/MuseoSansRounded700.woff") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("../fonts/MuseoSansRounded100.woff") format("woff");
+    font-weight: 100;
+}

@@ -1,0 +1,104 @@
+.sidebar-list, .sidebar-filter{
+    padding: 0 20px;
+    background: rgb(225, 225, 225);
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebar-manufacturer{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-manufacturer__item{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-manufacturer__overskrift, .sidebar-manufacturer__link-more{
+    color: var(--theme-color);
+    text-decoration: none;
+    margin: 0 0 10px 0;
+}
+
+.sidebar-list{
+    margin-top: 0;
+}
+
+.sidebar-list_under{
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.sidebar-list__item{
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.sidebar-filter__item{
+    margin: 0;
+}
+
+.sidebar-list__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .875rem;
+    color: var(--theme-color);
+}
+
+.sidebar-list__link_active{
+    color: rgb(112, 108, 97);
+}
+
+.sidebar-filter__link{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .765rem;
+    color: var(--theme-color);
+}
+
+.sidebar-manufacturer__link{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar-manufacturer__link_hover:hover{
+    color: var(--theme-color);
+}
+
+.sidebar-filter__price{
+    margin: 10px 0 0 0;
+}
+
+.sidebar-filter__title{
+    color: var(--theme-color);
+}
+
+@media only screen and (max-width:730px){
+    .product-sidebar{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .manufacturer-sidebar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar-filter{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .sidebar-filter__link, .sidebar-list__link{
+        font-size: 1rem;
+    }
+}

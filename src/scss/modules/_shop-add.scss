@@ -1,0 +1,46 @@
+.shop-add{
+    grid-column: 1/-1;
+    position: relative;
+}
+
+.shop-add__img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.shop-add__title{
+    position: absolute;
+    font-size: 3rem;
+    left: 10%;
+    font-family: var(--font);
+    font-weight: 300;
+    top: 80px;
+    width: 50px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+
+.fa-arrow-right, .fa-arrow-left{
+    position: absolute;
+    font-size: 5rem;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+    color: var(--theme-color);
+}
+
+#slide-right{
+    right: 50px;
+}
+
+#slide-left{
+    left: 50px;
+    
+}
+
+@media only screen and (max-width:1120px){
+    .shop-add{
+        display: none;
+    }
+}

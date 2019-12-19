@@ -1,0 +1,47 @@
+.socials-main{
+    overflow: hidden;
+}
+
+.social-facebook, .social-blog, .social-twitter{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: all .4s;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-facebook{
+    background: url("../images/socials/social-1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.social-blog{
+    background: url("../images/socials/social-2.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.social-twitter{
+    background: url("../images/socials/social-3.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.social-facebook__logo, .social-blog__logo, .social-twitter__logo{
+    width: 170px;
+    height: auto;
+}
+
+.social-facebook_hover:hover, .social-blog_hover:hover, .social-twitter_hover:hover{
+    transform: scale(1.2);
+    transition: all .4s;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1120px){
+    .social-facebook__logo, .social-blog__logo, .social-twitter__logo{
+        width: 100px;
+        height: auto;
+    }
+}
